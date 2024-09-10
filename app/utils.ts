@@ -7,7 +7,7 @@ export const validateSchema = <T>(data: any, schema: ZodSchema<T>): T=> {
     if (!result.success) throw new Response("Invalid data format", { status: 400 });
     
     return data;
-  } catch (error: any) {
+  } catch (error) {
     console.error('Data validation failed: ', error);
     throw error;
   }
