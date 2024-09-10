@@ -4,6 +4,11 @@ Welcome to the Remix Assignment repository! This project showcases a web applica
 
 Below, you'll find instructions on how to set up, run, and test the project, as well as additional resources like a demo video and unit test screenshots.
 
+## Demo video
+
+https://github.com/user-attachments/assets/eba9f354-3dc3-40ad-953f-0d0f42d8cd9c
+
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
