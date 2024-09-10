@@ -6,7 +6,7 @@ Below, you'll find instructions on how to set up, run, and test the project, as 
 
 ## Demo video
 
-https://github.com/user-attachments/assets/6c9f54f9-b295-4a90-ba41-ae743ac8f016
+https://github.com/user-attachments/assets/96c010a0-2f9e-41a7-bab9-fe6a81785f02
 
 
 ## Table of Contents
