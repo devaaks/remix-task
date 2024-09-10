@@ -33,3 +33,7 @@ To get started with this project, follow the steps below:
     ```shellscript
     npm run dev
     ```
+    
+2. **Unit tests**:
+
+    <img width="380" alt="Screenshot 2024-09-10 at 1 52 26 AM" src="https://github.com/user-attachments/assets/04b54cf1-d641-48cd-953a-04b1330252ba">
