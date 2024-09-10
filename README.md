@@ -36,17 +36,18 @@ Frontend:
  - [x] Implemented with React JS and server-side rendering (SSR) using Remix.
  - [x] The UI is designed to be intuitive and interactive with Tailwind CSS.
 
+
 ## Getting Started
 
 To get started with this project, follow the steps below:
 
-1. **Clone the repository**:
+**Clone the repository**:
    ```bash
    git clone https://github.com/devaaks/remix-task
    cd remix-task
    ```
 
-2. **Running the Project**:
+**Running the Project**:
 
     #### Install dependencies
     ```bash
@@ -59,6 +60,6 @@ To get started with this project, follow the steps below:
     npm run dev
     ```
     
-3. **Unit tests**:
+## Unit tests
 
-    <img width="380" alt="Screenshot 2024-09-10 at 1 52 26 AM" src="https://github.com/user-attachments/assets/04b54cf1-d641-48cd-953a-04b1330252ba">
+<img width="380" alt="Screenshot 2024-09-10 at 1 52 26 AM" src="https://github.com/user-attachments/assets/04b54cf1-d641-48cd-953a-04b1330252ba">
