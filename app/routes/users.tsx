@@ -52,8 +52,8 @@ export default function UsersPage() {
                         </tr>
                     </thead>
                     <tbody className="text-gray-600 text-sm">
-                        {users.map((user: User, index: number) => (
-                            <tr key={index} className="border-b border-gray-200 hover:bg-gray-100">
+                        {users.map((user: User) => (
+                            <tr key={user.name.replace(/\s/g, '')} className="border-b border-gray-200 hover:bg-gray-100">
                                 <td className="py-3 px-6 text-left whitespace-nowrap">{user.name}</td>
                                 <td className="py-3 px-6 text-left">{user.birth_year}</td>
                                 <td className="py-3 px-6 text-left">{user.gender}</td>
