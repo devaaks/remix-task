@@ -11,8 +11,8 @@ https://github.com/user-attachments/assets/96c010a0-2f9e-41a7-bab9-fe6a81785f02
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
 - [Description](#description)
+- [Getting Started](#getting-started)
 - [Running the Project](#running-the-project)
 - [Unit Tests](#unit-tests)
 - [Demo Video](#demo-video)
