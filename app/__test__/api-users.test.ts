@@ -37,6 +37,10 @@ describe('user api loader', () => {
     jest.clearAllMocks();
   });
 
+  afterAll(() => {
+    jest.resetAllMocks();
+  })
+
   it('should render list of users', async () => {
     mockFetch.mockResolvedValueOnce({
       ok: true,
