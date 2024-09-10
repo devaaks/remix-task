@@ -1,40 +1,35 @@
-# Welcome to Remix!
+# Remix Assignment
 
-- 📖 [Remix docs](https://remix.run/docs)
+Welcome to the Remix Assignment repository! This project showcases a web application built with [Remix](https://remix.run/). 
 
-## Development
+Below, you'll find instructions on how to set up, run, and test the project, as well as additional resources like a demo video and unit test screenshots.
 
-Run the dev server:
+## Table of Contents
 
-```shellscript
-npm run dev
-```
+- [Getting Started](#getting-started)
+- [Running the Project](#running-the-project)
+- [Unit Tests](#unit-tests)
+- [Demo Video](#demo-video)
 
-## Deployment
+## Getting Started
 
-First, build your app for production:
+To get started with this project, follow the steps below:
 
-```sh
-npm run build
-```
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/devaaks/remix-task
+   cd remix-assignment
+   ```
 
-Then run the app in production mode:
+2. **Running the Project**:
 
-```sh
-npm start
-```
+    #### Install dependencies
+    ```bash
+    npm install
+    ```
 
-Now you'll need to pick a host to deploy it to.
+    #### Run the dev server:
 
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+    ```shellscript
+    npm run dev
+    ```

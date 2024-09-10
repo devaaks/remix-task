@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="12" failures="0" errors="0" time="1.773">
+  <testsuite name="validateSchema" errors="0" failures="0" skipped="0" timestamp="2024-09-10T05:40:32" time="1" tests="8">
+    <testcase classname="validateSchema should return data when validation succeeds" name="validateSchema should return data when validation succeeds" time="0.003">
+    </testcase>
+    <testcase classname="validateSchema should throw a Response with status 400 when validation fails" name="validateSchema should throw a Response with status 400 when validation fails" time="0.018">
+    </testcase>
+    <testcase classname="validateSchema should log error and rethrow when an unexpected error occurs" name="validateSchema should log error and rethrow when an unexpected error occurs" time="0.004">
+    </testcase>
+    <testcase classname="getSearchParam should return empty string when no search param is present" name="getSearchParam should return empty string when no search param is present" time="0">
+    </testcase>
+    <testcase classname="getSearchParam should return correctly formatted search query when search param is present" name="getSearchParam should return correctly formatted search query when search param is present" time="0.001">
+    </testcase>
+    <testcase classname="getSearchParam should handle URL encoded search params" name="getSearchParam should handle URL encoded search params" time="0">
+    </testcase>
+    <testcase classname="getSearchParam should ignore other query params" name="getSearchParam should ignore other query params" time="0">
+    </testcase>
+    <testcase classname="getSearchParam should return empty string when search param is empty" name="getSearchParam should return empty string when search param is empty" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="user api loader" errors="0" failures="0" skipped="0" timestamp="2024-09-10T05:40:32" time="1.647" tests="4">
+    <testcase classname="user api loader should render list of users" name="user api loader should render list of users" time="0.015">
+    </testcase>
+    <testcase classname="user api loader should render list of users that matches search keyword" name="user api loader should render list of users that matches search keyword" time="0.001">
+    </testcase>
+    <testcase classname="user api loader should throw a 500 error if the API call fails" name="user api loader should throw a 500 error if the API call fails" time="0.005">
+    </testcase>
+    <testcase classname="user api loader should log the error when the API call fails" name="user api loader should log the error when the API call fails" time="0.004">
+    </testcase>
+  </testsuite>
+</testsuites>
