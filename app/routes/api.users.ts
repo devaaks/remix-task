@@ -1,6 +1,6 @@
 import type { LoaderFunction, LoaderFunctionArgs } from '@remix-run/node';
 import { API_ENDPOINTS } from '~/constants';
-import { UsersSchema } from '~/Schema/user';
+import { UsersSchema } from '~/schema/user';
 import { getSearchParam, validateSchema } from "~/utils";
 import { json } from "@remix-run/node";
 

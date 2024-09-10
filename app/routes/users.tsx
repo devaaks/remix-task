@@ -2,7 +2,7 @@ import { useLoaderData, Form } from "@remix-run/react";
 import type { LoaderFunction, LoaderFunctionArgs } from "@remix-run/node";
 import { API_ENDPOINTS } from '~/constants';
 import { User } from "~/types";
-import { UsersSchema } from '~/Schema/user';
+import { UsersSchema } from '~/schema/user';
 import { validateSchema, getSearchParam } from "~/utils";
 
 export const loader: LoaderFunction = async ({ request }: LoaderFunctionArgs): Promise<User[]> => {
