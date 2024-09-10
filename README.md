@@ -12,9 +12,29 @@ https://github.com/user-attachments/assets/96c010a0-2f9e-41a7-bab9-fe6a81785f02
 ## Table of Contents
 
 - [Getting Started](#getting-started)
+- [Description](#description)
 - [Running the Project](#running-the-project)
 - [Unit Tests](#unit-tests)
 - [Demo Video](#demo-video)
+
+## Description
+
+Application Features:
+
+- [x] A user can view a list of people.
+- [x] A user can search for a person.
+
+Backend:
+
+ - [x] Built using Node.js with TypeScript. The project utilizes Express.js as the Node.js framework.
+ - [x] Implemented schema validation for all objects (requests/responses) using Zod.
+ - [x] Unit tests included for key parts.
+
+Frontend:
+
+ - [x] The UI displays the list of people and includes a search functionality.
+ - [x] Implemented with React JS and server-side rendering (SSR) using Remix.
+ - [x] The UI is designed to be intuitive and interactive with Tailwind CSS.
 
 ## Getting Started
 
@@ -39,6 +59,6 @@ To get started with this project, follow the steps below:
     npm run dev
     ```
     
-2. **Unit tests**:
+3. **Unit tests**:
 
     <img width="380" alt="Screenshot 2024-09-10 at 1 52 26 AM" src="https://github.com/user-attachments/assets/04b54cf1-d641-48cd-953a-04b1330252ba">
