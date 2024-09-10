@@ -1,6 +1,6 @@
-# Remix Assignment
+# Remix Task
 
-Welcome to the Remix Assignment repository! This project showcases a web application built with [Remix](https://remix.run/). 
+Welcome to the Remix Task repository! This project showcases a web application built with [Remix](https://remix.run/). 
 
 Below, you'll find instructions on how to set up, run, and test the project, as well as additional resources like a demo video and unit test screenshots.
 
